@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hayal Düğün Paketim</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Hayal Düğün Paketim</h1>
+        <p>Hayalini kurduğun düğün, tek bir pakette!</p>
+    </header>
+
+    <section class="hero">
+        <img src="/img/gelin.damat.jpg" alt="Gelin ve Damat">
+    </section>
+
+    <section class="packages">
+        <h2>Paketlerimiz</h2>
+        <div class="package">
+    <div class="package-images">
+        <img src="/img/gelinlik.jpg" alt="Standart 1">
+        <img src="/img/smokin.jpg" alt="Standart 2">
+        <img src="/img/makyaj.jpg" alt="Gümüş 1">
+    </div>
+    <h3>Standart Paket</h3>
+    <p>Gelinlik, Damatlık, Salon, Kuaför</p>
+    <button onclick="calculateInstallments(15000)">Taksit Hesapla</button>
+</div>
+
+<div class="package">
+    <div class="package-images">
+        <img src="/img/altınlar.jpg" alt="Altın 3">
+        <img src="/img/süslüaraba.jpg" alt="Gümüş 2">
+    </div>
+    <h3>Gümüş Paket</h3>
+    <p>Standart + Takı Sponsoru + Gelin Arabası</p>
+    <button onclick="calculateInstallments(20000)">Taksit Hesapla</button>
+</div>
+
+<div class="package">
+    <div class="package-images">
+        <img src="/img/düğün.paketi.jpg" alt="Altın 1">
+        <img src="/img/düğün.paketi2.jpg" alt="Altın 2">
+        <img src="/img/altınlar.jpg" alt="Altın 3">
+    </div>
+    <h3>Altın Paket</h3>
+    <p>Gümüş + DJ, Fotoğrafçı, Video Çekimi</p>
+    <button onclick="calculateInstallments(25000)">Taksit Hesapla</button>
+</div>
+
+    </section>
+
+    <section class="installments">
+        <h2>Taksit Seçenekleri</h2>
+        <p id="installmentResult">Bir paketi seçerek hesaplayabilirsiniz.</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Hayal Düğün Paketim | Ekonomik Düğün Hayal Değil!</p>
+    </footer>
+</body>
+</html>
